@@ -1,0 +1,69 @@
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.bg {
+    background: url('https://assets.gqindia.com/photos/61b86d441279745aeb605a91/master/pass/top-image-04%20(7).jpg') no-repeat;
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: black;
+  z-index: 10;
+  color: white;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: rgb(212, 165, 10);
+}
+
+.info {
+  margin-left: 50px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.activelink {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  background-color: rgb(212, 165, 10);
+  text-decoration: none;
+  color: white;
+}
