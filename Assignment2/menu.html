@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RTS Cafe</title>
+    <link rel="stylesheet" href="Index.css" />
+    <style>
+        .menublocks {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            justify-items: center;
+            align-content: center;
+            margin: 30px;
+        }
+
+        .menublocks div {
+            height: 40vh;
+        }
+
+        .menublocks div p {
+            font-size: x-large;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .menublocks div table {
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+
+        table td {
+            border: 2px solid rgb(91, 212, 10);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: large;
+            font-weight: 500;
+        }
+
+        .activemenu:hover {
+            background-color: rgb(91, 212, 10);
+            color: white;
+        }
+
+        .menublocks a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 100%">
+        <nav>
+            <a href="./index.html" style="
+            font-weight: 700;
+            font-size: large;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            color: white;
+          ">
+                EVERSET CUISINES!!
+            </a>
+            <div class="navlinks">
+                <p>|</p>
+                <a class="link" style="background-color: rgb(9, 129, 123)">MENU</a>
+               
+                <p>|</p>
+                <a class="link" href="./signup.html">CONTACT</a>
+                <p>|</p>
+            </div>
+        </nav>
+        <div class="menublocks">
+            <div>
+                <p>First Course</p>
+                <table>
+                    <tr class="activemenu">
+                        <td>Chef's Salad & maple vinaigrette</td>
+                        <td>$4.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Heritage pear with brie, caramelized in honey</td>
+                        <td>$5.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Snails with red wine</td>
+                        <td>$6.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Mussels served with chive cream sauce</td>
+                        <td>$7.95</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div>
+                <p>Main Courses</p>
+                <table>
+                    <tr class="activemenu">
+                        <td>
+                            <a target="_blank" rel="noopener"
+                                href="https://www.mcdonaldsindia.com/extra-value-meals.html#view2">Burger, Coke &
+                                fries</a>
+                        </td>
+                        <td>$16.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>
+                            <a target="_blank" rel="noopener"
+                                href="https://www.mcdonaldsindia.com/favorites.html#view2">Veg Maharaja Mac</a>
+                        </td>
+                        <td>$17.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>
+                            <a target="_blank" rel="noopener"
+                                href="https://www.mcdonaldsindia.com/spicy-delights.html#view4">Big Spicy Paneer
+                                Wrap</a>
+                        </td>
+                        <td>$16.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>
+                            Chicken supreme, peach sauce
+                        </td>
+                        <td>$16.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>
+                            Veal tournedos, with mushroom sauce
+                        </td>
+                        <td>$18.95</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <p>Beverages</p>
+                <table>
+                    <tr class="activemenu">
+                        <td>Filter Coffee</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Cold Coffee</td>
+                        <td>$2.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Coke</td>
+                        <td>$3.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <p>Deserts</p>
+                <table>
+                    <tr class="activemenu">
+                        <td>Brownie & Hot Fudge</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Chocolate Brownie Pudding</td>
+                        <td>$2.95</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Salted Caramel Cheesecake</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Orange cake</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr class="activemenu">
+                        <td>Caramel Custard</td>
+                        <td>$4.25</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
