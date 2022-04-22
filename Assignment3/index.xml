@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="style.css" type="text/css"?>
+<employees>
+    <heading>Employees Details</heading>
+    <employee>
+        <id>ID :</id>
+        <name>NAME :</name>
+        <address>ADDRESS :</address>
+    </employee>
+    <employee>
+        <id>101</id>
+        <name>Amit Shinde</name>
+        <address>Pune</address>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Pranav Khairnar</name>
+        <address>Mumbai</address>
+    </employee>
+    <employee>
+        <id>104</id>
+        <name>Abhi Mundada</name>
+        <address>New Delhi</address>
+    </employee> 
+</employees>
