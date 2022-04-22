@@ -1,0 +1,31 @@
+employees{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+heading{
+    display: block;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(43, 226, 217);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(228, 238, 235);
+} 
+
+employee{
+    display: flex;
+    flex-direction: column;
+    width: 12%; 
+    margin-top: 20px;
+} 
+
+id, name, address{
+    font-weight: 600;
+    font-size: large;
+    color: rgb(240, 9, 124);
+    letter-spacing: 0.025em;
+    padding: 10px;
+    border: 1px solid black; 
+}
