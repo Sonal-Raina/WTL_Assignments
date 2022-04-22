@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE employees SYSTEM "employeedtd.dtd"> 
+
+<employees>
+
+    <employee>
+        <id>101</id>
+        <name>Amit Shinde</name>
+        <address>Pune</address>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Pranav Khairnar</name>
+        <address>Mumbai</address>
+    </employee>
+    <employee>
+        <id>104</id>
+        <name>Abhi Mundada</name>
+        <address>New Delhi</address>
+    </employee> 
+
+</employees>
